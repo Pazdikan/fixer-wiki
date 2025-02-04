@@ -8,25 +8,23 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Fixer Wiki",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "pazdikan.github.io/fixer-wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Poppins",
+        body: "Poppins",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -41,15 +39,15 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0a0a0a",
+          lightgray: "#737373",
+          gray: "#a3a3a3",
+          darkgray: "#e5e5e5",
+          dark: "#fafafa",
+          secondary: "#f5f5f5",
+          tertiary: "#262626",
+          highlight: "#3f6cf475",
+          textHighlight: "#3f6cf475",
         },
       },
     },
